@@ -1,0 +1,82 @@
+/* общие стили для всего сайта  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #924a7a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #924a7a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* стили для секции с каталогом */
+.catalog {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+/* стили для каталога */
+.catalog_indent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.catalog_indent_cloth{
+    margin: 60px 60px;
+    width: 410px;
+}
+.catalog_cloth{
+    display: flex;
+    width: 410px;
+    height: 424px;
+    border: 1px solid #000000;
+    object-fit: cover;
+}
+.catalog_text{
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 44px;
+    justify-content: center;
+    text-align: center;
+}
